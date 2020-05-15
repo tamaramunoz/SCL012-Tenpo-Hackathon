@@ -1,26 +1,20 @@
 import React from 'react';
-import '../Chat.css'
+import '../css/Chat.css'
 import back from '../img/back.png'
-import n from '../img/n.png'
 import Button from '../components/Button'
+import ChatDialogue from '../components/ChatDialogue'
 
+export default function Chat() {
 
-function Chat() {
     return (
         <>
             <div className='chat-header'>
-                <img className='chat-arrow' src={back} alt='back Arrow'></img>
+                <img className='chat-arrow' src={back} alt='Go Back'></img>
                 <h3>ATENCIÓN AL CLIENTE TENPO</h3>
             </div>
             <div className='chat-container'>
-                <div className='chat-dialoge'>
-                    <img src={n} alt='logo' className='chat-logo'></img>
-                    <p className='chat-bubble'>Hola, encantados de comunicarnos contigo.</p>
-                </div>
-                <div className='chat-dialoge'>
-                    <img src={n} alt='logo' className='chat-logo'></img>
-                    <p className='chat-bubble'>¿En qué te podemos ayudar? Por favor selecciona una categoría</p>
-                </div>
+                <ChatDialogue value='Hola, encantados de comunicarnos contigo' />
+                <ChatDialogue value='¿En qué te podemos ayudar? Por favor selecciona una categoría' />
                 <div className='chat-options'>
                     <Button value='Necesito información' />
                     <Button value='Tengo un problema' />
@@ -31,5 +25,3 @@ function Chat() {
         </>
     );
 }
-
-export default Chat;
