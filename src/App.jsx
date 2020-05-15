@@ -1,10 +1,12 @@
 import React from 'react';
 import Chat from './Views/Chat'
+import FloatButton from './components/FloatButton';
+
 
 function App() {
   return (
     <div>
-      <h1>Proyecto Tenpo</h1>
+      <FloatButton />
       <Chat />
     </div>
   );

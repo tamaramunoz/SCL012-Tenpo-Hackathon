@@ -1,8 +1,8 @@
 import React from 'react';
 import '../css/Chat.css'
 import back from '../img/back.png'
-import Button from '../Components/Button'
-import ChatDialogue from '../Components/ChatDialogue'
+import Button from '../components/Button'
+import ChatDialogue from '../components/ChatDialogue'
 
 export default function Chat() {
 
