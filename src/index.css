@@ -1,0 +1,13 @@
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.dropdown-menu.show {
+    display: block;
+}
