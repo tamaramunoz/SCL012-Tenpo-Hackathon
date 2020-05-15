@@ -2,7 +2,7 @@ import React from 'react';
 import '../Chat.css'
 import back from '../img/back.png'
 import n from '../img/n.png'
-import Button from '../Components/Button'
+import Button from '../components/Button'
 
 
 function Chat() {
