@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Dropdown } from 'react-bootstrap'
 import nube from '../img/nube-dialogo.png';
+import Chat from '../Views/Chat';
 
 
 
@@ -14,9 +15,7 @@ const FloatButton = () => {
                 </Dropdown.Toggle>
 
             <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Solucion 1</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Solucion 2</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Solucion 3</Dropdown.Item>
+                <Chat />
             </Dropdown.Menu>
         </Dropdown>
 
