@@ -1,7 +1,6 @@
-import React, { Fragment } from 'react';
-import { Dropdown } from 'react-bootstrap'
-import nube from '../img/nube-dialogo.png';
-
+import React, { Fragment } from 'react'
+import { DropdownButton, Dropdown } from 'react-bootstrap'
+import nube from '../img/nube-dialogo.png'
 
 
 const FloatButton = () => {
@@ -25,5 +24,5 @@ const FloatButton = () => {
     )
 }
 
-export default FloatButton
+export default FloatButton;
 
