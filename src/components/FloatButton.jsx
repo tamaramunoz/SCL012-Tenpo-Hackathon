@@ -1,28 +1,29 @@
-import React, { Fragment } from 'react'
-import { DropdownButton, Dropdown } from 'react-bootstrap'
-import nube from '../img/nube-dialogo.png'
+import React, { Fragment } from 'react';
+import { Dropdown } from 'react-bootstrap'
+import nube from '../img/nube-dialogo.png';
+
 
 
 const FloatButton = () => {
     return (
         <Fragment>
-            <img src={nube} alt="nube-dialogo" />  
-            <DropdownButton title='nubecita drop-down' >      
-                     
-                <Dropdown.Item eventKey="1">Posibles soluciones 1</Dropdown.Item>
-                <Dropdown.Item eventKey="2">Posibles soluciones 1</Dropdown.Item>
-                <Dropdown.Divider />
-                <Dropdown.Item eventKey="4">Posibles soluciones 1</Dropdown.Item>
-                
-            </DropdownButton>
-            
-            
-             
-            
-            
+            <Dropdown>
+                <Dropdown.Toggle className="bg-light" >
+                    <img src={nube}
+                    alt="tenpo img"/>
+                </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Solucion 1</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Solucion 2</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Solucion 3</Dropdown.Item>
+            </Dropdown.Menu>
+        </Dropdown>
 
         </Fragment>
+
     )
 }
 
 export default FloatButton
+
