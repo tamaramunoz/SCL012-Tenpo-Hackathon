@@ -1,14 +1,11 @@
 import React from 'react';
 import '../css/Button.css'
 
+const Button = ({value}) => {
 
-const Button = ({value, onClick}) => {
-
-    
     return (
         <div>
-            <button className='button-button'
-                onClick={(event) => { onClick(event) }}>
+            <button className='button-button'>
                 {value}
             </button>
         </div>

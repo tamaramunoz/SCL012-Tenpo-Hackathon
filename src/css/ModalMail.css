@@ -9,22 +9,37 @@
 
 .modal-title {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
     width: 70%;
 }
 
-.info-box{
+.info-box {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 90%;
     margin-top: 40px;
     padding: 10px;
     border-style: solid;
     border-width: 1px;
     border-color: #7255c8;
     border-radius: 18px;
+    font-size: 14px;
+}
+
+.info-box-two {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7255c8;
+    border-radius: 18px;
+    font-size: 14px;
 }
 
 .container-icono {
