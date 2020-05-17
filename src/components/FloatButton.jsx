@@ -4,7 +4,6 @@ import nube from '../img/nube-dialogo.png';
 import Chat from '../Views/Chat';
 
 
-
 const FloatButton = () => {
     return (
         <Fragment>
@@ -25,4 +24,3 @@ const FloatButton = () => {
 }
 
 export default FloatButton
-
