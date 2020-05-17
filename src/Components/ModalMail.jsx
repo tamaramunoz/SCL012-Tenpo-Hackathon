@@ -5,6 +5,7 @@ import errorImg from '../img/Component-6.png'
 import telefonista from '../img/telefonista.png'
 import sobre from '../img/sobredos.png'
 
+
 const ModalMail = () => {
     return (
         <div className="container-modal" >
@@ -21,7 +22,7 @@ const ModalMail = () => {
                 </div>
             </div>
 
-            <div className="info-box" >
+            <div className="info-box-two" >
                 <div className="container-icono" >
                     <img src={sobre} alt="enviar mail a tenpo" width={50} />
                 </div>
