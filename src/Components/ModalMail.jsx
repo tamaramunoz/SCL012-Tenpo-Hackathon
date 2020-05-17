@@ -16,7 +16,7 @@ const ModalMail = () => {
                     <img src={telefonista} alt="llamar a tenpo" width={35} />
                 </div>
                 <div className="body-text">
-                    <p>Llámanos al <Link to="/FloatButton">600 360 0355</Link></p>
+                    <p>Llámanos al <Link to="/phone">600 360 0355</Link></p>
                     <p> <b>Horarios de atención:</b> Lunes a Viernes 08:00-23:00 hrs. Sábados, Domingos y Festivos 09:00-23:00 hrs.</p>
                 </div>
             </div>
