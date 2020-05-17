@@ -23,4 +23,3 @@ const V1 = () => (
 )
 
 export default V1;
-
