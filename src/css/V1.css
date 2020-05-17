@@ -35,6 +35,7 @@ p span{
     color: #ffffff;
     font-weight: bold;
     border-radius: 8px;
+    border: solid;
     border-color: #ffffff;
     width: 312px;
     height: 56px;
