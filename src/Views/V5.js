@@ -1,11 +1,11 @@
 import React from 'react'
-import blankCircles from '../img/blankCircles.png'
+import circle3 from '../img/3circle.png'
 import backspace from '../img/backspace.png'
 import '../css/V2.css'
 import back from '../img/backWhite.png'
 import { Link } from 'react-router-dom';
 
-const V2 = () => (
+const V5 = () => (
     <div className='V2-div'>
         <div className='V2-arrowDiv'>
             <Link to="/">
@@ -16,8 +16,8 @@ const V2 = () => (
             <p className='V2-header'>
                 <span><strong>Ingresa la clave de acceso de</strong></span>
                 <span>correo@gmail.com</span></p>
-            <img src={blankCircles} alt='blank circles' className='V2-circles'></img>
-            <Link to="/V3">
+            <img src={circle3} alt='blank circles' className='V2-circles'></img>
+            <Link to="/V6">
                 <div className='V2-password'>
                     <button className='V2-number one'>1</button>
                     <button className='V2-number two'>2</button>
@@ -42,4 +42,4 @@ const V2 = () => (
     </div>
 )
 
-export default V2;
+export default V5;
