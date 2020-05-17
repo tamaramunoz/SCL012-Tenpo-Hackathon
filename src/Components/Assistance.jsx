@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Dropdown } from 'react-bootstrap'
-import nube from '../img/nube-dialogo.png';
+import nube from '../img/information.png';
 import ModalMail from './ModalMail';
 
 const Assistance = () => {
