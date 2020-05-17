@@ -1,5 +1,5 @@
 import React from 'react';
-import Chat from './Views/Chat'
+import Chat from './views/Chat'
 import FloatButton from './components/FloatButton';
 
 
