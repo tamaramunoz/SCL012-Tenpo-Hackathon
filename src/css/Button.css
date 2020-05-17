@@ -1,10 +1,12 @@
 .button-button{
     border-radius: 30px;
-    border-color: rgb(164, 78, 245);
-    color: rgb(164, 78, 245);
+    border-color: #7255c8;
+    color: #7255c8;
     padding: 12px;
     margin:5px;
+    font-size: 15px;
+    background-color: #f7f7f7;
 }
 .button-button:focus{
-    background-color: rgb(208, 173, 240);
+    background-color: #ece1fd;
 }

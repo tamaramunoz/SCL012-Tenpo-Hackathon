@@ -35,7 +35,10 @@ const Chat = () => {
                         activeButton ? (
                             <Fragment>
                                 <ChatDialogue value='Lo sentimos CATALINA ¿De qué se trata el problema? Selecciona una opción para poder ayudarte ' />
-                                <Button value='Quiero dejar un reclamo' />
+                                <Button value='Cargar plata a Tenpo' />
+                                <Button value='Sacar plata' />
+                                <Button value='Compras con mi tarjeta' />
+                                <Button value='Pagos de cuenta' />
                             </Fragment>
                         ) : null
                     }
