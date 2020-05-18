@@ -40,6 +40,8 @@ p span{
     border-color: #ffffff;
     width: 312px;
     height: 56px;
+    border-width: thin;
+
 }
 .V1-footer{
     font-size: 13px;
