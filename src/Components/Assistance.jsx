@@ -1,28 +1,27 @@
 import React, { Fragment } from 'react';
 import { Dropdown } from 'react-bootstrap'
 import nube from '../img/information.png';
-import Chat from '../Views/Chat';
+import ModalMail from './ModalMail';
 
-
-const FloatButton = () => {
+const Assistance = () => {
     return (
         <Fragment>
             <Dropdown>
                 <Dropdown.Toggle className="bg-light" >
                     <img src={nube}
-                        alt="tenpo img"
-                        width={50}
+                    alt="tenpo img"
+                    width={50}
                     />
                 </Dropdown.Toggle>
 
-                <Dropdown.Menu>
-                    <Chat />
-                </Dropdown.Menu>
-            </Dropdown>
+            <Dropdown.Menu>
+                <ModalMail />
+            </Dropdown.Menu>
+        </Dropdown>
+
         </Fragment>
 
     )
 }
 
-export default FloatButton;
-
+export default Assistance;

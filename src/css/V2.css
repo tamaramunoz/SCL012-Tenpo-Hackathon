@@ -1,0 +1,86 @@
+.V2-div{
+    padding-top: 10%;
+    background-color: #00baa4;
+}
+
+.V2-main{
+    background-color: #00baa4;
+    color:#ffffff;
+    font-size: 28px;
+    padding: 5% 7% 10% 7%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+.V2-arrowDiv{
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 7%;
+}
+.V2-header{
+    font-size: 15px;
+}
+.V2-circles{
+    margin-bottom: 10%;
+}
+.V2-password{
+    margin-bottom: 10%;
+}
+.V2-number{
+    border: 0.1px solid #ffffff;
+    color: #ffffff;
+    background-color: #00baa4;
+    height: 80px;
+    width: 102px;
+    text-align: center;
+    font-size: 40px;
+}
+.one{
+    border-left: none;
+    border-top: none;
+}
+.two{
+    border-top: none;
+}
+.three{
+    border-top: none;
+    border-right: none;
+}
+.four{
+    border-left: none;
+}
+.six{
+    border-right: none;
+}
+.seven{
+    border-left: none;
+}
+.nine{
+    border-right: none;
+}
+.cero{
+    border-bottom: none;
+}
+.empty{
+    color: #00baa4;
+    border-bottom: none;
+    border-left: none;
+}
+.back{
+    border-bottom: none;
+    border-right: none;
+}
+.V2-footerDiv{
+    background-color: #50C8B9;
+    padding-bottom: 22%;
+
+}
+.V2-footer{
+    font-size: 14px;
+    width: 100vW;
+    height: 40px;
+    margin-bottom: 0em;
+    padding-top: 3%;
+}

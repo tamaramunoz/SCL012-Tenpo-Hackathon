@@ -1,0 +1,50 @@
+.V1-container{
+    background-color: #00baa4;
+    color:#ffffff;
+    font-size: 35px;
+    padding: 10% 7%;
+}
+.V1-tenpo{
+    width: 90px;
+}
+.V1-welcome{
+    padding:20% 0;
+}
+p span{
+    display: block;
+}
+.V1-buttonDiv{
+    display: flex;
+    flex-direction: column;
+}
+.V1-button1{
+    margin-bottom: 3%;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    color: #00BAA4;
+    font-weight: bold;
+    border: none;
+    width: 312px;
+    height: 56px;
+}
+.V1-button2{
+    margin-bottom: 8%;
+    font-size: 14px;
+    background-color: #00BAA4;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px;
+    border: solid;
+    border-color: #ffffff;
+    width: 312px;
+    height: 56px;
+}
+.V1-footer{
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 16%;
+}
+.V1-paypal{
+    font-weight: bold;
+}
