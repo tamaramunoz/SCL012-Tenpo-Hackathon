@@ -5,10 +5,12 @@ import V3 from './Views/V3';
 import V4 from './Views/V4';
 import V5 from './Views/V5';
 import V6 from './Views/V6';
+import V7 from './Views/V7';
+import V8 from './Views/V8';
 import Chat from './Views/Chat';
 import FloatButton from './components/FloatButton';
-import Assistance from './components/Assistance'
 import Phone from './components/Phone';
+import ModalMail from './components/ModalMail';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -22,9 +24,11 @@ function App() {
         <Route exact path='/V4' component={V4} />
         <Route exact path='/V5' component={V5} />
         <Route exact path='/V6' component={V6} />
+        <Route exact path='/V7' component={V7} />
+        <Route exact path='/V8' component={V8} />
         <Route exact path='/Chat' component={Chat} />
         <Route exact path='/floatButton' component={FloatButton} />
-        <Route exact path='/assistance' component={Assistance} />
+        <Route exact path='/modalMail' component={ModalMail} />
         <Route exact path='/phone' component={Phone} />
       </Switch>
     </Router>
