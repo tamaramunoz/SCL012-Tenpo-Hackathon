@@ -1,13 +1,14 @@
 import React from 'react'
 import '../css/Address.css'
 import back from '../img/back.png'
+import { Link } from 'react-router-dom'
 
 
 const EnterAddress = () => {
     return (
         <div className="address-container" >
             <div className="address-header" >
-                <img src={back} alt="volver atras" />
+                <Link to="/validate"><img src={back} alt="volver atras" /></Link> 
                 <p>¡Un poco más y estamos listos!</p>
             </div>
             <div className="address-body" >
@@ -20,7 +21,7 @@ const EnterAddress = () => {
                 <input type="text" placeholder="Dirección" />
             </div>
             <div className="address-button" >
-                <button>Continuar</button>
+                <Link to="createkey"><button>Continuar</button></Link>
             </div>
         </div>
     )

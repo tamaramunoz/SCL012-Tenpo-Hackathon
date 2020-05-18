@@ -1,16 +1,17 @@
-.addphone-container {
+.validate-container {
     display: flex;
     flex-direction: column;
     background-color: #f1f1f1;
 }
 
-.addphone-header{
+.validate-header{
     display: flex;
     align-items: center;
     padding: 10px;
+    margin-top: 15px;
 }
 
-.addphone-header p{
+.validate-header p{
     font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
@@ -19,43 +20,45 @@
     margin-left: 15px;
 }
 
-.addphone-body {
+.validate-body {
     display: flex;
     flex-direction: column;
     padding: 20px;
     line-height : 18px;
 }
 
-.addphone-body-title {
+.validate-body-title {
     font-size: 24px;
     font-weight: bold;
 }
 
-.addphone-inputs {
+.validate-inputs {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
+    margin-top: 120px;
 }
 
-.addphone-inputs input {
+.validate-inputs input {
+    text-align: center;
     padding: 15px;
     background-color: #f1f1f1;
-    border-style: none;
+
 }
 
-.addphone-button {
+.validate-button {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 70px;
     width: 80%;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.addphone-button button {
+.validate-button button {
     border-radius: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -67,10 +70,4 @@
     background-color: #f1f1f1;
     border-color: #a8a8a8;
     border-style: solid;
-    margin-bottom: 20px;
-}
-
-.addphone-button button:hover {
-    background-color: #00baa4;
-    color: #ffffff;
 }

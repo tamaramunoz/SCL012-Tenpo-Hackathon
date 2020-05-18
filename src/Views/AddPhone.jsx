@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/AddPhone.css'
 import back from '../img/back.png'
+import { Link } from 'react-router-dom';
 
 const AddPhone = () => {
     return (
@@ -17,8 +18,8 @@ const AddPhone = () => {
                 <input type="text" placeholder="+56 | Ingresa tu número" />
             </div>
             <div className="addphone-button" >
-                <button>Validar por Whatsapp</button>
-                <button>Validar por SMS</button>
+                <Link to="/validate"> <button>Validar por Whatsapp</button> </Link> 
+                <Link to="/validate"> <button>Validar por SMS</button> </Link>
             </div>
         </div>
     )
