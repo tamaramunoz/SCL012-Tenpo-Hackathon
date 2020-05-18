@@ -9,10 +9,10 @@ import V7 from './Views/V7';
 import V8 from './Views/V8';
 import V9 from './Views/V9';
 import Chat from './Views/Chat';
-import FloatButton from './components/FloatButton';
 import Phone from './components/Phone';
 import ModalMail from './components/ModalMail';
-import Loading from './Views/Loading'
+import Loading from './Views/Loading';
+import AddPhone from './Views/AddPhone';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -30,10 +30,10 @@ function App() {
         <Route exact path='/V8' component={V8} />
         <Route exact path='/V9' component={V9} />
         <Route exact path='/loading' component={Loading} />
-        <Route exact path='/Chat' component={Chat} />
-        <Route exact path='/floatButton' component={FloatButton} />
+        <Route exact path='/chat' component={Chat} />
         <Route exact path='/modalMail' component={ModalMail} />
         <Route exact path='/phone' component={Phone} />
+        <Route exact path='/addphone' component={AddPhone} />
       </Switch>
     </Router>
   );

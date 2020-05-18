@@ -4,6 +4,8 @@ import back from '../img/back.png'
 import Button from '../components/Button'
 import ChatDialogue from '../components/ChatDialogue'
 import SolutionBox from '../components/SolutionBox';
+import wrong from '../img/wrong.png'
+import right from '../img/right.png'
 
 
 const Chat = () => {
@@ -24,11 +26,19 @@ const Chat = () => {
         setCantBuy(true)
     }
 
+    const onClickWrong = () => {
+        console.log('hice click');
+    }
+
+    const onClickRight = () => {
+        console.log('hice click');
+    }
+
     return (
         <Fragment>
             <div className='chat-header'>
                 <img className='chat-arrow' src={back} alt='Go Back'></img>
-                <h3>ATENCIÓN AL CLIENTE TENPO</h3>
+                <p className="chat-title" >ATENCIÓN AL CLIENTE TENPO</p>
             </div>
 
             <div className='chat-container'>
@@ -62,13 +72,21 @@ const Chat = () => {
                                 <Button value='Compré y me salió tarjeta rechazada' />
                                 <button className="button-button" onClick={() => onClickProblem(cantBuy)}>No puedo comprar con mi tarjeta Tenpo</button>
                             </Fragment>
-                            ) : null
+                        ) : null
                     }
                     {
-                        cantBuy ? ( 
+                        cantBuy ? (
                             <Fragment>
                                 <SolutionBox />
-                            </Fragment> 
+                                <div className="solution-results" >
+                                    <p>¿Pudimos ayudarte?</p>
+                                    <div className="solution-icons" >
+                                        <button className="icon-button" onClick={() => onClickWrong()}><img src={wrong} alt="no pudieron solucionar mi problema" /></button>
+                                        <button className="icon-button" onClick={() => onClickRight()} ><img src={right} alt="si me ayudaron a solucionar mi problema" /></button> 
+                                    </div>
+                                    <p>¡Lo sentimos mucho!</p>
+                                </div>
+                            </Fragment>
                         ) : null
                     }
                 </div>
