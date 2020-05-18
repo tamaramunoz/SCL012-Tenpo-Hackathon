@@ -71,6 +71,7 @@
         position: fixed;
         z-index: 999;
         margin: 37%;
-    }
+        padding-bottom: 25%;
 
+    }
 }
