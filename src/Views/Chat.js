@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from './node_modules/react';
+import React, { Fragment, useState } from 'react';
 import '../css/Chat.css'
 import back from '../img/back.png'
 import Button from '../components/Button'
