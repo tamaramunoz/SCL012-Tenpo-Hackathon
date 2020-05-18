@@ -1,0 +1,78 @@
+
+@media only screen and (max-width: 700px) and (min-width: 320px){
+
+    .V8-container{
+        background-color: black;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .containerPlace8{
+        height: 65vh;
+        width: 80vw;
+        display: table;
+        border-radius: 3%;
+        background-color: #ffffff;
+        padding: 1% 8% 1% 8%;
+        z-index: 1;
+       
+    }
+
+    .iV8{
+    
+    margin-top: 3%;
+    }
+
+    .btnV8a{
+        border-color: #7255C8;
+        border-radius: 10px;
+        width: 45%;
+        height: 8%;
+        background-color: white;
+        padding: 10px;
+        color: #7255C8;
+        font-weight: 400;
+        font-size: medium;
+    }
+
+
+    .btnV8b{
+        border-color: #7255C8;
+        border-radius: 8px;
+        width: 45%;
+        height: 8%;
+        background-color: #7255C8;
+        padding: 10px;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: medium;
+
+    }
+
+
+    .btnsV8{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15%;
+    }
+
+    .sorryV4{
+       font-weight: 700; 
+    }
+
+    .pV8{
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .iNub8{
+        display: flex;
+        position: fixed;
+        z-index: 999;
+        margin: 37%;
+        padding-bottom: 25%;
+
+    }
+}
