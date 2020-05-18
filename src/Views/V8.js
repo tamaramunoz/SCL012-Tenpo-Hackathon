@@ -2,10 +2,10 @@ import React from 'react';
 import iV8 from '../img/iV8.png';
 import iNub from '../img/iNub.png';
 import '../css/V8.css'
-
+import { Link } from 'react-router-dom';
 
 const V8 = () => (
-    < div className='V8-container'>
+    < div className='V8-container'><Link to="/V9">
 
         <div className="containerPlace8">
             <img src={iV8} alt="iconoLoSentimos" className="iV8"></img>
@@ -20,7 +20,7 @@ const V8 = () => (
             </div>    
             
         </div>   
-        <img src={iNub} alt="icono de Dialogo" className="iNub8"></img>
+        <img src={iNub} alt="icono de Dialogo" className="iNub8"></img></Link>
     </div>
 )
 
