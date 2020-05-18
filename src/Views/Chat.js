@@ -3,15 +3,25 @@ import '../css/Chat.css'
 import back from '../img/back.png'
 import Button from '../components/Button'
 import ChatDialogue from '../components/ChatDialogue'
+import SolutionBox from '../components/SolutionBox';
 
 
 const Chat = () => {
 
     const [activeButton, setActiveButton] = useState(false)
+    const [cardProblem, setCardProblem] = useState(false)
+    const [cantBuy, setCantBuy] = useState(false)
 
     const onClicking = () => {
-        console.log('hice click');
         setActiveButton(true)
+    }
+
+    const onClickOption = () => {
+        setCardProblem(true)
+    }
+
+    const onClickProblem = () => {
+        setCantBuy(true)
     }
 
     return (
@@ -37,9 +47,28 @@ const Chat = () => {
                                 <ChatDialogue value='Lo sentimos CATALINA ¿De qué se trata el problema? Selecciona una opción para poder ayudarte ' />
                                 <Button value='Cargar plata a Tenpo' />
                                 <Button value='Sacar plata' />
-                                <Button value='Compras con mi tarjeta' />
+                                <button className="button-button" onClick={() => onClickOption(cardProblem)}>Compras con mi tarjeta</button>
                                 <Button value='Pagos de cuenta' />
+                                <Button value='Recargas de servicios' />
+                                <Button value='Diferencias en saldo' />
+                                <Button value='Otro' />
                             </Fragment>
+                        ) : null
+                    }
+                    {
+                        cardProblem ? (
+                            <Fragment>
+                                <ChatDialogue value='Cuéntanos en detalle lo que te sucedió para poder ayudarte mejor' />
+                                <Button value='Compré y me salió tarjeta rechazada' />
+                                <button className="button-button" onClick={() => onClickProblem(cantBuy)}>No puedo comprar con mi tarjeta Tenpo</button>
+                            </Fragment>
+                            ) : null
+                    }
+                    {
+                        cantBuy ? ( 
+                            <Fragment>
+                                <SolutionBox />
+                            </Fragment> 
                         ) : null
                     }
                 </div>

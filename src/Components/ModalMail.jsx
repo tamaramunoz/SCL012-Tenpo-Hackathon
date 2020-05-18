@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import '../css/ModalMail.css'
 import errorImg from '../img/Component-6.png'
 import telefonista from '../img/telefonista.png'
-import sobre from '../img/sobredos.png'
+import sobre from '../img/sobre.png'
 
 
 const ModalMail = () => {
@@ -24,7 +24,7 @@ const ModalMail = () => {
 
             <div className="info-box-two" >
                 <div className="container-icono" >
-                    <img src={sobre} alt="enviar mail a tenpo" width={50} />
+                    <img src={sobre} alt="enviar mail a tenpo" width={35} />
                 </div>
                 <div className="body-text">
                     <p>Escríbenos a <a href="mailto:hola@tenpo.cl">hola@tenpo.cl</a></p>
