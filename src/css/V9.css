@@ -1,0 +1,27 @@
+
+@media only screen and (max-width: 700px) and (min-width: 320px){
+
+    .pTenV9{
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+
+    .infoV9{
+        position: fixed;
+        top: 72%;
+        right: 3%;
+        z-index: 200;
+    }
+
+   
+
+
+
+
+
+
+
+}    
+
