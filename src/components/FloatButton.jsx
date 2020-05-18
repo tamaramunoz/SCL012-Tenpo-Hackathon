@@ -20,7 +20,9 @@ const FloatButton = () => {
                 </Dropdown.Menu>
             </Dropdown>
         </Fragment>
+
     )
 }
 
-export default FloatButton
+export default FloatButton;
+
