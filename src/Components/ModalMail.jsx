@@ -9,7 +9,7 @@ import sobre from '../img/sobre.png'
 const ModalMail = () => {
     return (
         <div className="container-modal" >
-            <img src={errorImg} alt="error al continuar"  />
+            <Link to="/V8" ><img src={errorImg} alt="error al continuar" /></Link>
             <p className="modal-title">Si el problema persiste comunícate con nosotros</p>
 
             <div className="info-box" >

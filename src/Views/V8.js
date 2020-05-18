@@ -1,7 +1,8 @@
 import React from 'react';
 import iV8 from '../img/iV8.png';
-import iNub from '../img/iNub.png';
+import chatBot from '../img/information.png'
 import '../css/V8.css'
+import { Link } from 'react-router-dom';
 
 
 const V8 = () => (
@@ -19,8 +20,11 @@ const V8 = () => (
                 <button className="btnV8b"> Reintentar</button>   
             </div>    
             
-        </div>   
-        <img src={iNub} alt="icono de Dialogo" className="iNub8"></img>
+        </div>
+        <div className="iNub8">
+            <Link to="/ModalMail" > <img src={chatBot} alt=""/> </Link>
+        </div>
+        
     </div>
 )
 
