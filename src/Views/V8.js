@@ -16,7 +16,7 @@ const V8 = () => (
             <p className="pV8">Puedes reintentar o volver en algunos minutos.</p>
 
             <div className="btnsV8">
-                <button className="btnV8a" ><Link to="/" > <span>Cancelar</span> </Link></button>
+                <button className="btnV8a" ><Link to="/" > <span className="buttonCancel">Cancelar</span> </Link></button>
                 <button className="btnV8b"><Link to="/loading"><span className="buttonRestart">Reintentar</span></Link></button>
             </div>
 

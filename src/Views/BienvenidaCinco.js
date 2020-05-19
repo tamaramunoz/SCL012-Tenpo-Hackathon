@@ -12,7 +12,7 @@ const BienvenidaCinco = () => (
     <div className="BT5-container">
         <div className="atras">
             <Link to="/BienvenidaCuatro" ><img src={back} alt="Volver atras" /></Link>
-            <p><strong>COMENCEMOS</strong> CON TUS DATOS</p>
+            <p><strong class="comencemos" >COMENCEMOS</strong> CON TUS DATOS</p>
         </div>
         <div className="text-placeB5">
             <h5 className="listo"> Ingresa tu RUT y N° de documento o serie</h5>
