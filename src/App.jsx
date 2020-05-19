@@ -19,6 +19,10 @@ import ValidatePhone from './Views/ValidatePhone';
 import EnterAddress from './Views/EnterAddress';
 import CreateKey from './Views/CreateKey';
 import ConfirmKey from './Views/ConfirmKey';
+import ModalMAil from './components/ModalMail';
+import ModalAddress from './components/ModalAddress';
+import Chat from './Views/Chat';
+import Phone from './components/Phone';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -46,6 +50,10 @@ function App() {
         <Route exact path='/address' component={EnterAddress} />
         <Route exact path='/createkey' component={CreateKey} />
         <Route exact path='/confirmkey' component={ConfirmKey} />
+        <Route exact path='/modalmail' component={ModalMAil} />
+        <Route exact path='/modaladdress' component={ModalAddress} />
+        <Route exact path='/chat' component={Chat} />
+        <Route exact path='/phonecall' component={Phone} />
       </Switch>
     </Router>
   );
