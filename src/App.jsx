@@ -20,7 +20,7 @@ import EnterAddress from './Views/EnterAddress';
 import CreateKey from './Views/CreateKey';
 import ConfirmKey from './Views/ConfirmKey';
 import Main from './Views/Main';
-import ModalMAil from './components/ModalMail';
+import ModalMail from './components/ModalMail';
 import ModalAddress from './components/ModalAddress';
 import Chat from './Views/Chat';
 import Phone from './components/Phone';
@@ -52,7 +52,7 @@ function App() {
         <Route exact path='/createkey' component={CreateKey} />
         <Route exact path='/confirmkey' component={ConfirmKey} />
         <Route exact path='/Main' component={Main} />
-        <Route exact path='/modalmail' component={ModalMAil} />
+        <Route exact path='/modalmail' component={ModalMail} />
         <Route exact path='/modaladdress' component={ModalAddress} />
         <Route exact path='/chat' component={Chat} />
         <Route exact path='/phonecall' component={Phone} />
