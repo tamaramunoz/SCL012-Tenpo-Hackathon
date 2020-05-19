@@ -1,5 +1,5 @@
 import React from 'react';
-//import V1 from './Views/V1';
+import V1 from './Views/V1';
 import V2 from './Views/V2';
 import V3 from './Views/V3';
 import V4 from './Views/V4';
@@ -11,6 +11,8 @@ import V9 from './Views/V9';
 import BienvenidaUno from './Views/BienvenidaUno';
 import BienvenidaDos from './Views/BienvenidaDos';
 import BienvenidaTres from './Views/BienvenidaTres';
+import BienvenidaCuatro from './Views/BienvenidaCuatro';
+import BienvenidaCinco from './Views/BienvenidaCinco';
 import Chat from './Views/Chat';
 import Phone from './components/Phone';
 import ModalMail from './components/ModalMail';
@@ -24,13 +26,17 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 
+
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path='/' component={BienvenidaUno} />
+        <Route exact path='/' component={V1} />
+        <Route exact path='/BienvenidaUno' component={BienvenidaUno} />
         <Route exact path='/BienvenidaDos' component={BienvenidaDos} />
         <Route exact path='/BienvenidaTres' component={BienvenidaTres} />
+        <Route exact path='/BienvenidaCuatro' component={BienvenidaCuatro} />
+        <Route exact path='/BienvenidaCinco' component={BienvenidaCinco} />
         <Route exact path='/V2' component={V2} />
         <Route exact path='/V3' component={V3} />
         <Route exact path='/V4' component={V4} />

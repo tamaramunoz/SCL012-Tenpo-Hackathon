@@ -1,25 +1,26 @@
 import React from 'react'
 import back from '../img/back.png'
+import '../css/CreateKey.css'
 import { Link } from 'react-router-dom';
 
 const ConfirmKey = () => {
     return (
-        <div>
-            <div>
-            <Link to="/createkey"><img src={back} alt="Volver atras"/></Link>
+        <div className="key-container">
+            <div className="key-header">
+                <Link to="/createkey"><img src={back} alt="Volver atras"/></Link>
                 <p>¡Y por último! Tu seguridad</p>
             </div>
-            <div>
-                <p>Confirma tu clave de acceso</p>
+            <div className="key-body">
+                <p className="key-body-title" >Confirma tu clave de acceso</p>
             </div>
-            <div>
-                <input type="text"/>
-                <input type="text"/>
-                <input type="text"/>
-                <input type="text"/>
+            <div className="key-inputs" >
+                <input type="password" maxLength="1" />
+                <input type="password" maxLength="1" />
+                <input type="password" maxLength="1" />
+                <input type="password" maxLength="1" />
             </div>
-            <div>
-                <button>Finalizar</button>
+            <div className="key-button">
+                <Link to="/"><button>Finalizar</button></Link>
             </div>
         </div>
     )
