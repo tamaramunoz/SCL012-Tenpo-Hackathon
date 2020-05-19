@@ -22,6 +22,7 @@ import ValidatePhone from './Views/ValidatePhone';
 import EnterAddress from './Views/EnterAddress';
 import CreateKey from './Views/CreateKey';
 import ConfirmKey from './Views/ConfirmKey';
+import Main from './Views/Main';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -53,6 +54,7 @@ function App() {
         <Route exact path='/address' component={EnterAddress} />
         <Route exact path='/createkey' component={CreateKey} />
         <Route exact path='/confirmkey' component={ConfirmKey} />
+        <Route exact path='/Main' component={Main} />
       </Switch>
     </Router>
   );

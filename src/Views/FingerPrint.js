@@ -14,12 +14,14 @@ const FingerPrint = () => (
         <Link to="/Auth">
             <button className='FP-button1'>AUTORIZAR</button>
         </Link>
-        <button className='FP-button2'>NO, PREGUNTAR MÁS TARDE</button>
+        <Link to="/Auth">
+            <button className='FP-button2'>NO, PREGUNTAR MÁS TARDE</button>
+        </Link>
         <div className='FP-info'>
             <img className='FP-icon' src={i} alt='info icon'></img>
             <p className='FP-infoText'>Todas las huellas registradas en tu dispositivo tendrán acceso a la aplicación</p>
         </div>
-    </div>
+    </div >
 )
 
 export default FingerPrint;
