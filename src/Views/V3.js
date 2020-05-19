@@ -30,7 +30,7 @@ const V3 = () => (
                     <button className='V2-number nine'>9</button>
                     <button className='V2-number empty'>0</button>
                     <button className='V2-number cero'>0</button>
-                    <button className='V2-number back'>
+                    <button className='V2-number back2'>
                         <img src={backspace} alt='backspace' className='V2-backspace'></img>
                     </button>
                 </div>

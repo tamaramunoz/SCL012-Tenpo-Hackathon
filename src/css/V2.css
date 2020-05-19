@@ -64,15 +64,22 @@
 }
 .cero{
     border-bottom: none;
+    border-bottom: none;
+    margin-right: 33%;
 }
 .empty{
     color: #00baa4;
     border-bottom: none;
     border-left: none;
 }
-.back{
-    border-bottom: none;
+.back2{
     border-right: none;
+    border-bottom: none;
+    display: flex;
+    margin: 5%;
+    margin-left: 66%;
+    margin-top: -26%;
+    padding-left: 10%;
 }
 .V2-footerDiv{
     background-color: #50C8B9;
