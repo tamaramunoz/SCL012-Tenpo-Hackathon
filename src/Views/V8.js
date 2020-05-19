@@ -16,13 +16,13 @@ const V8 = () => (
             <p className="pV8">Puedes reintentar o volver en algunos minutos.</p>
 
             <div className="btnsV8">
-                <button className="btnV8a" ><Link to="/" >Cancelar</Link></button>
-                <button className="btnV8b"><Link to="/loading" >Reintentar</Link></button>
+                <button className="btnV8a" ><Link to="/" > <span>Cancelar</span> </Link></button>
+                <button className="btnV8b"><Link to="/loading"><span className="buttonRestart">Reintentar</span></Link></button>
             </div>
 
         </div>
         <div className="iNub8">
-            <Link to="/ModalMail" > <img src={chatBot} alt="" /> </Link>
+            <Link to="/ModalMail" > <img src={chatBot} alt="más información" /> </Link>
         </div>
 
     </div>
