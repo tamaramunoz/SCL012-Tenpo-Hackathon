@@ -9,9 +9,9 @@ const FingerPrint = () => (
     <div className='FP-container'>
         <img src={tenpo} alt='logo'></img>
         <img src={FPimg} alt='Finger print screen' className='FP-image'></img>
-        <strong> <p className='FP-title'>¿Deseas ingresar usando tu huella o FaceID?</p></strong>
+        <strong> <p>¿Deseas ingresar usando tu huella o FaceID?</p></strong>
         <p className='FP-subtitle'>Es más fácil y seguro.</p>
-        <Link to="/Authorized">
+        <Link to="/Auth">
             <button className='FP-button1'>AUTORIZAR</button>
         </Link>
         <button className='FP-button2'>NO, PREGUNTAR MÁS TARDE</button>
