@@ -5,14 +5,14 @@ import back from '../img/back.png'
 import PhoneKey from '../img/phone-key.png'
 
 
-const ModalMail = () => {
+const ModalAddress = () => {
     return (
         <div className="container-modal" >
             <div>
                 <img src={back} alt="Volver atras" />
             </div>
 
-            <Link to="/V8" ><img src={PhoneKey} alt="error al continuar" /></Link>
+            <Link to="/address" ><img src={PhoneKey} alt="error al continuar" /></Link>
             
             <div className="text-box" >
                 <p>La Unidad de Análisis Financiero (UAF) nos exige conocer todos estos datos de los usuarios que se registren para crear una cuenta.</p>
@@ -23,4 +23,4 @@ const ModalMail = () => {
     )
 }
 
-export default ModalMail
+export default ModalAddress
