@@ -10,7 +10,7 @@ const Auth = () => (
             ¡Genial Camila Rojas Serantoni!
         </p></strong>
         <p className='Auth-subtitle'>¡Ya puedes empezar a disfrutar de Tenpo</p>
-        <Link to="/V2">
+        <Link to="/Main">
             <button className='Auth-button'>COMENZAR</button>
         </Link>
     </div>
