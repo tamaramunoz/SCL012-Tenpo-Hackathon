@@ -1,5 +1,5 @@
 import React from 'react';
-//import V1 from './Views/V1';
+import V1 from './Views/V1';
 import V2 from './Views/V2';
 import V3 from './Views/V3';
 import V4 from './Views/V4';
@@ -28,7 +28,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path='/' component={BienvenidaUno} />
+        <Route exact path='/' component={V1} />
+        <Route exact path='/BienvenidaUno' component={BienvenidaUno} />
         <Route exact path='/BienvenidaDos' component={BienvenidaDos} />
         <Route exact path='/BienvenidaTres' component={BienvenidaTres} />
         <Route exact path='/V2' component={V2} />
