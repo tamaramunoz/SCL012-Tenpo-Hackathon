@@ -1,0 +1,13 @@
+.container-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-imagen {
+    margin-top: 30px;
+}
+
+.text-box {
+    margin-top: 20px;
+    padding: 30px;
+}
