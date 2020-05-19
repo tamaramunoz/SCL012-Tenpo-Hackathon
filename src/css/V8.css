@@ -15,9 +15,8 @@
         display: table;
         border-radius: 3%;
         background-color: #ffffff;
-        padding: 1% 8% 1% 8%;
+        padding: 5% 8% 5% 8%;
         z-index: 1;
-       
     }
 
     .iV8{
@@ -72,12 +71,6 @@
         z-index: 999;
         margin: 37%;
         padding-bottom: 25%;
-
     }
 
-    a{
-        color: #fff;
-        text-decoration: none;
-        background-color: transparent;
-    }
 }

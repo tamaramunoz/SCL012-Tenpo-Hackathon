@@ -1,11 +1,12 @@
 import React from 'react'
 import back from '../img/back.png'
+import { Link } from 'react-router-dom';
 
 const ConfirmKey = () => {
     return (
         <div>
             <div>
-                <img src={back} alt=""/>
+            <Link to="/createkey"><img src={back} alt="Volver atras"/></Link>
                 <p>¡Y por último! Tu seguridad</p>
             </div>
             <div>

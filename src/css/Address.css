@@ -1,0 +1,76 @@
+.address-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+
+.address-header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.address-header p{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00baa4;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.address-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height : 15px;
+}
+
+.address-body-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.address-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+.address-inputs input {
+    padding: 15px;
+    background-color: #f1f1f1;
+    
+}
+
+.address-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.address-button button {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #a8a8a8;
+    background-color: #f1f1f1;
+    border-color: #a8a8a8;
+    border-style: solid;
+}
+
+.address-button button:hover {
+    background-color: #00baa4;
+    color: #ffffff;
+    border-style: none;
+}

@@ -4,8 +4,9 @@ import back from '../img/back.png'
 import Button from '../components/Button'
 import ChatDialogue from '../components/ChatDialogue'
 import SolutionBox from '../components/SolutionBox';
-import wrong from '../img/wrong.png'
-import right from '../img/right.png'
+import wrongIcon from '../img/wrong.png'
+import rightIcon from '../img/right.png'
+import { Link } from 'react-router-dom';
 
 
 const Chat = () => {
@@ -13,6 +14,7 @@ const Chat = () => {
     const [activeButton, setActiveButton] = useState(false)
     const [cardProblem, setCardProblem] = useState(false)
     const [cantBuy, setCantBuy] = useState(false)
+    const [wrong, setWrong] = useState(false)
 
     const onClicking = () => {
         setActiveButton(true)
@@ -27,17 +29,14 @@ const Chat = () => {
     }
 
     const onClickWrong = () => {
-        console.log('hice click');
+        setWrong(true)
     }
 
-    const onClickRight = () => {
-        console.log('hice click');
-    }
 
     return (
         <Fragment>
             <div className='chat-header'>
-                <img className='chat-arrow' src={back} alt='Go Back'></img>
+                <Link to="/V9" > <img className='chat-arrow' src={back} alt='Go Back' /></Link>
                 <p className="chat-title" >ATENCIÓN AL CLIENTE TENPO</p>
             </div>
 
@@ -55,13 +54,15 @@ const Chat = () => {
                         activeButton ? (
                             <Fragment>
                                 <ChatDialogue value='Lo sentimos CATALINA ¿De qué se trata el problema? Selecciona una opción para poder ayudarte ' />
-                                <Button value='Cargar plata a Tenpo' />
-                                <Button value='Sacar plata' />
-                                <button className="button-button" onClick={() => onClickOption(cardProblem)}>Compras con mi tarjeta</button>
-                                <Button value='Pagos de cuenta' />
-                                <Button value='Recargas de servicios' />
-                                <Button value='Diferencias en saldo' />
-                                <Button value='Otro' />
+                                <div className="sorry-container" >
+                                    <Button value='Cargar plata a Tenpo' />
+                                    <Button value='Sacar plata' />
+                                    <button className="button-button" onClick={() => onClickOption(cardProblem)}>Compras con mi tarjeta</button>
+                                    <Button value='Pagos de cuenta' />
+                                    <Button value='Recargas de servicios' />
+                                    <Button value='Diferencias en saldo' />
+                                    <Button value='Otro' />
+                                </div>
                             </Fragment>
                         ) : null
                     }
@@ -81,10 +82,21 @@ const Chat = () => {
                                 <div className="solution-results" >
                                     <p>¿Pudimos ayudarte?</p>
                                     <div className="solution-icons" >
-                                        <button className="icon-button" onClick={() => onClickWrong()}><img src={wrong} alt="no pudieron solucionar mi problema" /></button>
-                                        <button className="icon-button" onClick={() => onClickRight()} ><img src={right} alt="si me ayudaron a solucionar mi problema" /></button> 
+                                        <button className="icon-button" onClick={() => onClickWrong(wrong)}><img src={wrongIcon} alt="no pudieron solucionar mi problema" /></button>
+                                        <Link to='/V9' ><button className="icon-button"><img src={rightIcon} alt="si me ayudaron a solucionar mi problema" /></button></Link>
                                     </div>
                                     <p>¡Lo sentimos mucho!</p>
+                                </div>
+                            </Fragment>
+                        ) : null
+                    }
+                    {
+                        wrong ? (
+                            <Fragment>
+                                <ChatDialogue value="Ya recibimos información de tu problema y estamos trabajando para solucionarlo. Nos contactaremos contigo lo antes posible." />
+                                <ChatDialogue value="Tu número de reclamos es 15678. Adicionalmente enviaremos una copia a tu correo." />
+                                <div className="backtostart-container" >
+                                    <Link to='/V9' ><button className="backtostart" >Volver al inicio</button></Link>
                                 </div>
                             </Fragment>
                         ) : null

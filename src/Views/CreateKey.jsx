@@ -1,11 +1,12 @@
 import React from 'react'
 import back from '../img/back.png'
+import { Link } from 'react-router-dom';
 
 const CreateKey = () => {
     return (
         <div>
             <div>
-                <img src={back} alt=""/>
+                <Link to="address" ><img src={back} alt="Volver atras"/></Link>
                 <p>¡Y por último! Tu seguridad</p>
             </div>
             <div>
@@ -19,7 +20,7 @@ const CreateKey = () => {
                 <input type="text"/>
             </div>
             <div>
-                <button>Continuar</button>
+               <Link to="/confirmkey"><button>Continuar</button></Link>
             </div>
             
         </div>
