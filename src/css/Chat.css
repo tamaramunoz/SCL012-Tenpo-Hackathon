@@ -19,3 +19,52 @@ body{
     flex-wrap: wrap;
     justify-content: flex-end;
 }
+
+.sorry-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.solution-results {
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+
+.solution-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-button {
+    border-style: none;
+    background: none;
+}
+
+.chat-title {
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+.backtostart-container{
+    margin-right: 65px;
+}
+
+.backtostart {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-style: none;
+    width: 100%;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #636e72;
+}

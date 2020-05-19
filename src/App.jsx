@@ -10,12 +10,20 @@ import V8 from './Views/V8';
 import V9 from './Views/V9';
 import FingerPrint from './Views/FingerPrint';
 import Auth from './Views/Authorized';
+import BienvenidaUno from './Views/BienvenidaUno';
+import BienvenidaDos from './Views/BienvenidaDos';
+import BienvenidaTres from './Views/BienvenidaTres';
 import Chat from './Views/Chat';
-import FloatButton from './components/FloatButton';
 import Phone from './components/Phone';
 import ModalMail from './components/ModalMail';
-import Loading from './Views/Loading'
+import Loading from './Views/Loading';
+import AddPhone from './Views/AddPhone';
+import ValidatePhone from './Views/ValidatePhone';
+import EnterAddress from './Views/EnterAddress';
+import CreateKey from './Views/CreateKey';
+import ConfirmKey from './Views/ConfirmKey';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 
 function App() {
@@ -23,6 +31,9 @@ function App() {
     <Router>
       <Switch>
         <Route exact path='/' component={V1} />
+        <Route exact path='/BienvenidaUno' component={BienvenidaUno} />
+        <Route exact path='/BienvenidaDos' component={BienvenidaDos} />
+        <Route exact path='/BienvenidaTres' component={BienvenidaTres} />
         <Route exact path='/V2' component={V2} />
         <Route exact path='/V3' component={V3} />
         <Route exact path='/V4' component={V4} />
@@ -34,10 +45,14 @@ function App() {
         <Route exact path='/FingerPrint' component={FingerPrint} />
         <Route exact path='/Auth' component={Auth} />
         <Route exact path='/loading' component={Loading} />
-        <Route exact path='/Chat' component={Chat} />
-        <Route exact path='/floatButton' component={FloatButton} />
+        <Route exact path='/chat' component={Chat} />
         <Route exact path='/modalMail' component={ModalMail} />
         <Route exact path='/phone' component={Phone} />
+        <Route exact path='/addphone' component={AddPhone} />
+        <Route exact path='/validate' component={ValidatePhone} />
+        <Route exact path='/address' component={EnterAddress} />
+        <Route exact path='/createkey' component={CreateKey} />
+        <Route exact path='/confirmkey' component={ConfirmKey} />
       </Switch>
     </Router>
   );

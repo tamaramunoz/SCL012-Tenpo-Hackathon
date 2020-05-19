@@ -7,7 +7,7 @@ const Auth = () => (
     <div className='Auth-container'>
         <img src={checkCell} alt='checkPass' className='Auth-img'></img>
         <strong> <p className='Auth-title'>
-            ¡Genial Camila Rojas Seratoni!
+            ¡Genial Camila Rojas Serantoni!
         </p></strong>
         <p className='Auth-subtitle'>¡Ya puedes empezar a disfrutar de Tenpo</p>
         <Link to="/V2">

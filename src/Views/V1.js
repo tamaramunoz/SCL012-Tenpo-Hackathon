@@ -12,13 +12,14 @@ const V1 = () => (
             <span>bienvenida</span>
         </p>
         <div className='V1-buttonDiv'>
-            <button className='V1-button1'>CREAR UNA CUENTA</button>
+            <Link to="/BienvenidaUno">
+                <button className='V1-button1'>CREAR UNA CUENTA</button>
+            </Link>
             <Link to="/V2">
                 <button className='V1-button2'>INICIAR SESIÓN</button>
             </Link>
         </div>
         <p className='V1-footer'>Iniciar sesión con <strong>Tenpo Paypal</strong></p>
-
     </div>
 )
 
