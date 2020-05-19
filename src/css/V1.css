@@ -1,3 +1,4 @@
+@media only screen and (max-width: 700px) and (min-width: 320px){
 .V1-container{
     background-color: #00baa4;
     color:#ffffff;
@@ -39,6 +40,8 @@ p span{
     border-color: #ffffff;
     width: 312px;
     height: 56px;
+    border-width: thin;
+
 }
 .V1-footer{
     font-size: 13px;
@@ -47,4 +50,5 @@ p span{
 }
 .V1-paypal{
     font-weight: bold;
+}
 }

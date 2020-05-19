@@ -1,0 +1,81 @@
+@media only screen and (max-width: 700px) and (min-width: 320px){
+.Main-colored{
+    background-color: #00baa4;
+    color:#ffffff;
+    font-size: 35px;
+    padding: 10% 7%;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+}
+.Main-Header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+.Main-tenpo  {
+    align-self: center;
+    margin-left: 36%;
+}
+.Main-menuIcon{
+    width: 25px;
+}
+.Main-moneyAmount{
+    font-size: 50px;
+}
+.Main-subtitle{
+    font-size: 15px;
+    margin: 6%;
+}
+.Main-sections{
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 5%;
+    font-size: 14px;
+    background-color: #F7F7F7;
+    color: #333333;
+ }
+ .Main-charge{
+    width: 4.5em;
+    height: 2.5em;
+    margin-bottom: 7%;
+ }
+ .Main-get{
+    width: 2.7em;
+    height: 2.7em;
+    margin-bottom: 7%;
+ }
+ .Main-history{
+    width: 2.8em;
+    height: 2.8em;
+    margin-bottom: 2%;
+ }
+ .Main-chargeDiv{
+    text-align: center;
+ }
+ .Main-advice{
+    text-align: center;
+    color: #00baa4;
+    background-color: #c6f5ef;
+    font-size: 13px;
+    border-radius: 8px;
+    margin: 2% 7% 5% 7%;
+ }
+ .Main-section{
+    width: 2.8em;
+    height: 2.8em;
+    margin-bottom: 2%;
+ } 
+ .Main-payDiv{
+     display: flex;
+     justify-content: center;
+     font-size: 14px;
+ }
+ .footer{
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12% ;
+    margin-top: 5%;
+    font-size: 14px;
+}
+}

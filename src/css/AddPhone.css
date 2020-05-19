@@ -42,7 +42,10 @@
 .addphone-inputs input {
     padding: 15px;
     background-color: #f1f1f1;
-    border-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #7f8c8d;
 }
 
 .addphone-button {

@@ -1,0 +1,34 @@
+@media only screen and (max-width: 700px) and (min-width: 320px){
+    .Auth-container{
+        background-color: #00baa4;
+        color:#ffffff;
+        font-size: 35px;
+        padding: 35% 7% 10% 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .Auth-img{
+        padding-bottom: 10%;
+    }
+    .Auth-button{
+        margin-bottom: 8%;
+        font-size: 14px;
+        background-color: #00BAA4;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 8px;
+        border: solid;
+        border-color: #ffffff;
+        width: 312px;
+        height: 56px;
+        border-width: thin;        
+    }
+    .Auth-subtitle{
+        font-size: 13px;
+        padding: 10%;
+    }
+    }
+    
+    
