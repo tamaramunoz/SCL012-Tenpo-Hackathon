@@ -8,6 +8,8 @@ import V6 from './Views/V6';
 import V7 from './Views/V7';
 import V8 from './Views/V8';
 import V9 from './Views/V9';
+import FingerPrint from './Views/FingerPrint';
+import Auth from './Views/Authorized';
 import BienvenidaUno from './Views/BienvenidaUno';
 import BienvenidaDos from './Views/BienvenidaDos';
 import BienvenidaTres from './Views/BienvenidaTres';
@@ -40,7 +42,9 @@ function App() {
         <Route exact path='/V6' component={V6} />
         <Route exact path='/V7' component={V7} />
         <Route exact path='/V8' component={V8} />
-        <Route exact path='/V9' component={V9} /> 
+        <Route exact path='/V9' component={V9} />
+        <Route exact path='/FingerPrint' component={FingerPrint} />
+        <Route exact path='/Auth' component={Auth} />
         <Route exact path='/loading' component={Loading} />
         <Route exact path='/chat' component={Chat} />
         <Route exact path='/modalMail' component={ModalMail} />

@@ -1,0 +1,62 @@
+@media only screen and (max-width: 700px) and (min-width: 320px){
+    .FP-container{
+        background-color: #00baa4;
+        color:#ffffff;
+        font-size: 23px;
+        padding: 10% 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 13%;
+    }
+    .FP-image{
+        padding: 5%;
+    }
+    .FP-button1{
+        margin-bottom: 3%;
+        font-size: 14px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        color: #00BAA4;
+        font-weight: bold;
+        border: none;
+        width: 312px;
+        height: 56px;
+    }
+    .FP-button2{
+        margin-bottom: 8%;
+        font-size: 14px;
+        background-color: #00BAA4;
+        color: #ffffff;
+        font-weight: bold;
+        border-radius: 8px;
+        border: none;
+        width: 312px;
+        height: 56px;
+    }
+    .FP-subtitle{
+        font-size: 13px;
+        padding: 5%;
+    }
+    .FP-info{
+        display: flex;
+        font-size: 11px;
+        border: solid;
+        border-color: #ffffff;
+        border-radius: 8px;
+        padding: 2%;
+        align-items: center;
+        border-width: thin;
+
+    }
+   .FP-icon{
+        width: 8%;
+        margin: 1%;
+    }
+    .FP-infoText{
+        text-align: start;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    }
