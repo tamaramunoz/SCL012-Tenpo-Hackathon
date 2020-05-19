@@ -1,11 +1,11 @@
 import React from 'react';
 import BT3 from '../img/BT3.png';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import points3 from '../img/points3.png';
 import CYA from '../img/CYA.png'
 import '../css/BienvenidaUno.css'
 
-const Bienvenidatres = () => (
+const BienvenidaTres = () => (
     < div className='BT1-container'>
         <img src={BT3} alt="img Bienvenida a tenpo" className="imgBT1 "></img>
         <p className="yaTengoCuenta">YA TENGO CUENTA > </p>
@@ -21,9 +21,9 @@ const Bienvenidatres = () => (
 
                 </div>
                 <div>               
-                   
+                    <Link to="/BienvenidaCuatro"> 
                     <img src={CYA} alt="button crea tu cuenta" className="CYAButton"/> 
-                  
+                    </Link>
                     <p className="paypal">Registrate con <strong> Multicaja Paypal </strong> </p>
                 </div>
             </div>
@@ -34,4 +34,4 @@ const Bienvenidatres = () => (
     </div>
 )
 
-export default Bienvenidatres;
+export default BienvenidaTres;

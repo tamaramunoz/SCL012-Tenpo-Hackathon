@@ -1,0 +1,78 @@
+@media only screen and (max-width: 700px) and (min-width: 320px){
+
+    root{ 
+        background-color: #E5E5E5;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .listo{
+        font-weight: bolder;
+        margin-top: 10%;
+        margin-bottom: inherit;
+    }
+    
+
+    .BT4-container{
+    margin: 5%;
+    font-size: small;
+
+    }
+
+    .BT4-container p {
+        margin-bottom: 7%;
+    }
+
+
+    .iconBC{
+        width: 12%;
+        height: 3%;
+        margin-right: 7%;
+    }
+    
+
+
+    .back{
+    display: flex;
+    margin: 5%;
+    margin-left: 3%;
+    }
+
+
+    .bienvenidoTenpo {
+        vertical-align: inherit;
+        font-weight: bolder; 
+     
+    }
+
+
+    .textPlace{
+
+        display: inline-flex;
+    }
+
+
+    .containerButonB4{
+    text-align-last: center;
+    margin: 5%;
+   
+    }
+
+    .containerButonB4 p{
+        margin-bottom: 5%;
+
+    }    
+
+    .buttonPlace{
+        margin-left: -4%;
+        padding-top: 5%;
+
+    }
+
+    .Cont{
+        margin-bottom: 5%;
+
+    }
+
+
+}    

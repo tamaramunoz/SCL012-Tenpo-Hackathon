@@ -13,6 +13,8 @@ import Auth from './Views/Authorized';
 import BienvenidaUno from './Views/BienvenidaUno';
 import BienvenidaDos from './Views/BienvenidaDos';
 import BienvenidaTres from './Views/BienvenidaTres';
+import BienvenidaCuatro from './Views/BienvenidaCuatro';
+import BienvenidaCinco from './Views/BienvenidaCinco';
 import Loading from './Views/Loading';
 import AddPhone from './Views/AddPhone';
 import ValidatePhone from './Views/ValidatePhone';
@@ -35,6 +37,8 @@ function App() {
         <Route exact path='/BienvenidaUno' component={BienvenidaUno} />
         <Route exact path='/BienvenidaDos' component={BienvenidaDos} />
         <Route exact path='/BienvenidaTres' component={BienvenidaTres} />
+        <Route exact path='/BienvenidaCuatro' component={BienvenidaCuatro} />
+        <Route exact path='/BienvenidaCinco' component={BienvenidaCinco} />
         <Route exact path='/V2' component={V2} />
         <Route exact path='/V3' component={V3} />
         <Route exact path='/V4' component={V4} />

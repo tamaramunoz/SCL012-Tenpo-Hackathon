@@ -1,0 +1,125 @@
+@media only screen and (max-width: 700px) and (min-width: 320px){
+
+    .BT5-container{ 
+        background-color: #E5E5E5;
+        width: 100vw;
+        height: 100vh;
+        padding: 8%;
+    }
+
+
+    strong{
+
+        color: #00BAA4
+    }
+
+
+
+    .text-placeB5 p{
+
+        font-size: small;
+        margin-top: 5%;
+    }
+
+    .cedula{
+        font-size: 11px;
+        display: block;
+        border-color: #7255C8;
+    
+    }
+
+    .text-placeB5 p {
+
+        font-size: small;
+    }
+
+    .listo{
+        font-weight: bolder;
+        margin-top: 5%;
+        margin-bottom: inherit;
+    }
+    .atras{
+
+        font-size: x-small;
+        display: flex;
+    }
+
+    .atras img{
+        display: flex;
+        margin: 4%;
+        margin-left: 0;
+
+    }
+
+    .atras p{
+
+        padding-top: 5%;
+        font-weight: 700;
+
+    }
+
+    .write{
+
+    margin-top: 10%;
+    }
+
+    input {
+        width: -webkit-fill-available;
+        outline: 0;
+        border-width: 0 0 2px;
+        border-color: #7255C8;
+        background-color: #E5E5E5
+      }
+
+      input:focus {
+        border-color: #7255C8
+      }
+
+    .form-check{
+
+        position: relative;
+        display: block;
+        padding-left: 1.25rem;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+
+      .inputPlace{
+        margin-top: 5%;
+
+      }
+      .textCedula{
+        position: fixed;
+        display: flex;
+        z-index: 2;
+        margin-top: -12%;
+
+      }
+
+      .text{
+        font-size: smaller;
+        display: block;
+        margin: -4%;
+        margin-left: 18%;
+        margin-top: -24%;
+      }
+
+      .iconBienvenidaCedula{   
+        width: 10%;
+        height: 3%;
+        margin-right: 6%;
+        margin-left: 2%;
+    }
+
+    .cedula p{
+
+        display: flex;
+        padding: 8px;
+        margin: -16px;
+    }
+
+    .textb{
+
+        color: #7255C8
+    }
+}
