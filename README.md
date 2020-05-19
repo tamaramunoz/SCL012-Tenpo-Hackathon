@@ -1,10 +1,21 @@
 # Hackathon Tenpo
 
-Aquí se desarrolla el proyecto del squad 8 para la Hackathon con la empresa Tenpo.
+## Nombre de proyecto: 
+Siempre Acompañados
 
-desafío 2
+## Nombre de Squad: 
+Guñelve
 
-Mejora en servicio al cliente de aplicación Tenpo
+## Objetivo del proyecto:  
+Acompañar a los usuarios durante toda su experiencia usando la aplicación desde la etapa de registro.
+
+## Descripción de proyecto: 
+Es importante que el usuario esté informado de todo lo que pasa en la app por lo que agregamos un botón flotante con información relevante para ayudarlo a resolver problemas o dudas. Esto bajaría la ansiedad del usuario por no saber qué está pasando y disminuiría el número de tickets 
+que se generan por reclamos.
+
+## Tecnologías usadas: 
+Para implementar los cambios que se diseñaron basados en nuestra propuesta de mejora se emuló una aplicación nativa utilizando React, CSS3 y Flexbox.
+
 
 ## Proyecto Desarrollado por:
 
