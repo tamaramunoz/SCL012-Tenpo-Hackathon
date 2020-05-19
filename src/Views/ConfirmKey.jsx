@@ -20,7 +20,7 @@ const ConfirmKey = () => {
                 <input type="password" maxLength="1" />
             </div>
             <div className="key-button">
-                <Link to="/"><button>Finalizar</button></Link>
+                <Link to="/FingerPrint"><button>Finalizar</button></Link>
             </div>
         </div>
     )

@@ -17,7 +17,7 @@ const ValidatePhone = () => {
                 <input type="text" placeholder="código de 6 dígitos" />
             </div>
             <div className="validate-button" >
-                <button>Puedes solicitar un nuevo código en 24 seg...</button>
+                <Link to="/address" ><button>Puedes solicitar un nuevo código en 24 seg...</button></Link>
             </div>
         </div>
     )

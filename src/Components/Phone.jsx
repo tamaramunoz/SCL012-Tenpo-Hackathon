@@ -46,7 +46,7 @@ const Phone = () => {
                     </tr>
                     <tr className="icons-group">
                         <th><img src={camera} alt="video llamada" width={35} /></th>
-                        <th><Link to="/assistance"><img src={phone} alt="llamar" width={60} /></Link></th>
+                        <th><Link to="/modalmail"><img src={phone} alt="llamar" width={60} /></Link></th>
                         <th><img src={keyboard} alt="ocultar teclado" width={35} /></th>
                     </tr>
                 </table>
