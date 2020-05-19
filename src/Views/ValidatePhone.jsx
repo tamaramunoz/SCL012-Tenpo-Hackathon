@@ -14,7 +14,7 @@ const ValidatePhone = () => {
                 <p>Ingresa el código que te enviamos por SMS al +56 910101001</p>
             </div>
             <div className="validate-inputs" >
-                <input type="text" placeholder="código de 6 dígitos" />
+                <input type="text" maxLength="6" placeholder="código de 6 dígitos" />
             </div>
             <div className="validate-button" >
                 <Link to="/address" ><button>Puedes solicitar un nuevo código en 24 seg...</button></Link>
