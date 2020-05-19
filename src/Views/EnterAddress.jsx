@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Address.css'
 import back from '../img/back.png'
+import chatBot from '../img/information.png';
 import { Link } from 'react-router-dom'
 
 
@@ -23,6 +24,7 @@ const EnterAddress = () => {
             <div className="address-button" >
                 <Link to="createkey"><button>Continuar</button></Link>
             </div>
+            <Link to="/modalAddress" ><img src={chatBot} alt='icono de información' className="infoV9"/></Link>
         </div>
     )
 }
