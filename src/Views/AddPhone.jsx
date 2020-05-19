@@ -15,7 +15,7 @@ const AddPhone = () => {
                 <p>Te enviaremos un mensaje con un código para validar tu número.</p>
             </div>
             <div className="addphone-inputs"  >
-                <input type="text" placeholder="+56 | Ingresa tu número" />
+                <input type="text" maxLength="9" placeholder="+56 | Ingresa tu número" />
             </div>
             <div className="addphone-button" >
                 <Link to="/validate"> <button>Validar por Whatsapp</button> </Link> 

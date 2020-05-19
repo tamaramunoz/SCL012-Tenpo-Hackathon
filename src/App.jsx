@@ -26,6 +26,7 @@ import ModalMail from './components/ModalMail';
 import ModalAddress from './components/ModalAddress';
 import Chat from './Views/Chat';
 import Phone from './components/Phone';
+import ChatDos from './Views/ChatDos';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
@@ -60,6 +61,7 @@ function App() {
         <Route exact path='/modaladdress' component={ModalAddress} />
         <Route exact path='/chat' component={Chat} />
         <Route exact path='/phonecall' component={Phone} />
+        <Route exact path='/chatdos' component={ChatDos} />
       </Switch>
     </Router>
   );
